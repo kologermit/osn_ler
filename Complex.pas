@@ -4,6 +4,7 @@ type
 end;
 function sumComplex(a, b: Complex): Complex;
 begin
+    write(1);
     sumComplex.r := a.r + b.r;
     sumComplex.c := a.c + b.c; 
 end;
