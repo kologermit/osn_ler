@@ -1,6 +1,6 @@
-library Complex;
+uses ComplexCalculator;
 const max_n=100;
-var a, b, c, s, t: Complex.Complex;
+var a, b, c, s, t: Complex;
 var eps: real;
 var i: integer;
 function abs(a: real): real;
@@ -23,27 +23,27 @@ begin
     writeln('b= ', b.r:3:5, ' + ', b.c:3:5, 'i');
     writeln();
     // plus
-    c := Complex.sumComplex(a, b);
+    c := sumComplex(a, b);
     writeln('a + b = ', c.r:3:5, ' + ', c.c:3:5, 'i');
     // minus
-    c := Complex.minusComplex(a, b);
+    c := minusComplex(a, b);
     writeln('a - b = ', c.r:3:5, ' + ', c.c:3:5, 'i');
-    c := Complex.minusComplex(b, c);
+    c := minusComplex(b, c);
     writeln('b - a = ', c.r:3:5, ' + ', c.c:3:5, 'i');
     // multiple
-    c := Complex.multiplierComplex(a, b);
+    c := multiplierComplex(a, b);
     writeln('a * b = ', c.r:3:5, ' + ', c.c:3:5, 'i');
     // division
-    c := Complex.divisionComplex(a, b);
+    c := divisionComplex(a, b);
     writeln('a / b = ', c.r:3:5, ' + ', c.c:3:5, 'i');
     // one division
-    c := Complex.oneDivisionComplex(a);
+    c := oneDivisionComplex(a);
     writeln('1 / a = ', c.r:3:5, ' + ', c.c:3:5, 'i');
-    c := Complex.oneDivisionComplex(b);
+    c := oneDivisionComplex(b);
     writeln('1 / b = ', c.r:3:5, ' + ', c.c:3:5, 'i');
     //module
-    writeln('|a| = ', Complex.moduleComplex(a):3:5);
-    writeln('|b| = ', Complex.moduleComplex(b):3:5);
+    writeln('|a| = ', moduleComplex(a):3:5);
+    writeln('|b| = ', moduleComplex(b):3:5);
     //pow
     eps := 0.000001;
     s.r := 0;
@@ -53,8 +53,8 @@ begin
     i := 1;
     while abs(t.r) + abs(t.c) > eps do
     begin
-        t := Complex.powComplex(a, i);
-        s := Complex.sumComplex(s, t);
+        t := powComplex(a, i);
+        s := sumComplex(s, t);
         writeln('t=', t.r:3:5, ' + ', t.c:3:5, 'i');
         writeln('s=', s.r:3:5, ' + ', s.c:3:5, 'i');
         writeln('i=', i);
