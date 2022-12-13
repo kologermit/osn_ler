@@ -6,15 +6,36 @@ type
     r, c: real;
 end;
 
+function ComplexConstructor(r, c: real): Complex;
+function ComplexConstructor(r: real): Complex;
+function ComplexConstructor(a: Complex): Complex;
 function sumComplex(a, b: Complex): Complex;
 function minusComplex(a, b: Complex): Complex;
 function multiplierComplex(a, b: Complex): Complex;
+function multiplierComplex(a: Complex; b: real): Complex;
 function divisionComplex(first, second: Complex): Complex;
 function oneDivisionComplex(a: Complex): Complex;
 function moduleComplex(a: Complex): real;
 function powComplex(a: Complex; b: integer): Complex;
 
 implementation
+
+function ComplexConstructor(r, c: real): Complex;
+begin
+    ComplexConstructor.r := r;
+    ComplexConstructor.c := c;
+end;
+
+function ComplexConstructor(r: real): Complex;
+begin
+    ComplexConstructor.r := r;
+    ComplexConstructor.c := 0;
+end;
+
+function ComplexConstructor(a: Complex): Complex;
+begin
+    ComplexConstructor := a;
+end;
 
 function sumComplex(a, b: Complex): Complex;
 begin
@@ -32,6 +53,12 @@ function multiplierComplex(a, b: Complex): Complex;
 begin
     multiplierComplex.r := a.r * b.r - a.c * b.c;
     multiplierComplex.c := a.r * b.c + a.c * b.r;
+end;
+
+function multiplierComplex(a: Complex; b: real): Complex;
+begin
+    multiplierComplex.r := a.r * b;
+    multiplierComplex.c := a.c * b;
 end;
 
 function divisionComplex(first, second: Complex): Complex;
