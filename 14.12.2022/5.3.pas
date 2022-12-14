@@ -2,18 +2,20 @@ var x, a: real;
 var sum, t: real;
 var k: integer;
 function fact(n: integer): integer;
-var i: integer;
+var answer: integer;
 begin
-	fact := 1;
-	for i := 2 to n do
-		fact := fact * i;
+	answer := 1;
+	for var i := 2 to n do
+		answer := answer * i;
+	fact := answer;
 end;
 function pow(r: real; p: integer): real;
-var i: integer;
+var answer: real;
 begin
-	pow := 1;
-	for i := 1 to p do
-		pow := pow * r;
+	answer := 1;
+	for var i := 1 to p do
+		answer := answer * r;
+	pow := answer;
 end;
 function abs(r: real): real;
 begin
