@@ -13,7 +13,7 @@ type runner = record
 end;
 
 var runners: array[1 .. 100] of runner;
-var count_runners, i, output_format: integer;
+var count_runners, output_format: integer;
 var key: string;
 var first, second: real;
 
@@ -21,7 +21,7 @@ procedure read_runners();
 begin
    write('count runners: ');
    read(count_runners);
-   for i := 1 to count_runners do
+   for var i := 1 to count_runners do
    begin
       writeln('Runner #', i);
       write('Name: ');
@@ -90,16 +90,16 @@ begin
       read(first);
       write('To: ');
       read(second);
-      for i := 1 to count_runners do
+      for var i := 1 to count_runners do
          if (runners[i].averageResult >= first) and (runners[i].averageResult <= second) then
             write_runner(runners[i]);
    end;
    if output_format = 2 then
    begin
-      write('Which last 3 characters will be searched for: ');
+      write('Which last 3 characters will be searched for var: ');
       while length(key) <> 3 do
          readln(key);
-      for i := 1 to count_runners do
+      for var i := 1 to count_runners do
          if copy(runners[i].surname, length(runners[i].surname) - 2, 3) = key then
             write_runner(runners[i]);
    end;
@@ -108,7 +108,7 @@ begin
       write('Which gender will the search be performed: ');
       while length(key) = 0 do
          readln(key);
-      for i := 1 to count_runners do
+      for var i := 1 to count_runners do
          if runners[i].gender = key then
             write_runner(runners[i]);
    end;
