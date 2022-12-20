@@ -10,7 +10,7 @@ function VectorConstructor(a: Vector): Vector;
 function sumVector(a, b: Vector): Vector;
 function minusVector(a, b: Vector): Vector;
 function multiplierVector(a, b: Vector): Vector;
-function scalarMultiplierVector(s: real; v: Vector): Vector;
+function scalarMultiplierVector(v: Vector; s: real): Vector;
 function scalarMultiplierVector(a, b: Vector): real;
 function moduleVector(a: Vector): real;
 
@@ -49,7 +49,7 @@ begin
 	multiplierVector.z := a.x*b.y-a.y*b.x;
 end;
 
-function scalarMultiplierVector(s: real; v: Vector): Vector;
+function scalarMultiplierVector(v: Vector; s: real): Vector;
 begin
 	scalarMultiplierVector.x := s * v.x;
 	scalarMultiplierVector.y := s * v.y;

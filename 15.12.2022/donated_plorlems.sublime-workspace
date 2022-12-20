@@ -1,0 +1,1853 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"task",
+				"task_times_up"
+			],
+			[
+				"last_user_geo_send_",
+				"task_last_user_geo_send_time"
+			],
+			[
+				"las",
+				"last_user_geo_send_time"
+			],
+			[
+				"is",
+				"is_print_sql_query"
+			],
+			[
+				"Sta",
+				"StatusHadler"
+			],
+			[
+				"no",
+				"now_seconds"
+			],
+			[
+				"tas",
+				"task_columns"
+			],
+			[
+				"ev",
+				"environment"
+			],
+			[
+				"re",
+				"return_rewards"
+			],
+			[
+				"ca",
+				"canceled_game_code"
+			],
+			[
+				"sta",
+				"statistic"
+			],
+			[
+				"rewa",
+				"rewards_columns"
+			],
+			[
+				"step_in",
+				"step_in_culture"
+			],
+			[
+				"ste",
+				"step_in_culture_visited_locations"
+			],
+			[
+				"cou",
+				"count_vitited_locations"
+			],
+			[
+				"cout",
+				"count_vitited_locations"
+			],
+			[
+				"end",
+				"ended_step_in_culture"
+			],
+			[
+				"en",
+				"ended_golden_adventure"
+			],
+			[
+				"wa",
+				"way_ids"
+			],
+			[
+				"cre",
+				"create_time"
+			],
+			[
+				"max",
+				"max_speed_in_game"
+			],
+			[
+				"dis",
+				"distance_step_in_culture"
+			],
+			[
+				"stat",
+				"statistic"
+			],
+			[
+				"start",
+				"start_settings"
+			],
+			[
+				"cli",
+				"club_verification"
+			],
+			[
+				"club_",
+				"club_invites"
+			],
+			[
+				"reje",
+				"reject_invite"
+			],
+			[
+				"sended_",
+				"sended_join_requests"
+			],
+			[
+				"sendedn",
+				"sended_join_requests"
+			],
+			[
+				"inve",
+				"inventory"
+			],
+			[
+				"in",
+				"inventory"
+			],
+			[
+				"se",
+				"sended_friend_requests"
+			],
+			[
+				"wai_",
+				"wait_confirm_friend_requests"
+			],
+			[
+				"sen",
+				"sended_friend_requests"
+			],
+			[
+				"send",
+				"sended_friend_requests"
+			],
+			[
+				"To",
+				"TogetherApi"
+			],
+			[
+				"html",
+				"html5"
+			],
+			[
+				"lea",
+				"leaderboards"
+			],
+			[
+				"get",
+				"get_nearest_locations"
+			],
+			[
+				"loca",
+				"locations"
+			],
+			[
+				"req",
+				"request_handler"
+			],
+			[
+				"if",
+				"if_result_error"
+			],
+			[
+				"get_in",
+				"get_inventory"
+			],
+			[
+				"grop",
+				"group"
+			],
+			[
+				"ema",
+				"email_verification"
+			],
+			[
+				"veri",
+				"verification_url"
+			],
+			[
+				"ver",
+				"verification_token_data"
+			],
+			[
+				"message",
+				"messages"
+			],
+			[
+				"C",
+				"Create"
+			],
+			[
+				"test",
+				"test_generate"
+			],
+			[
+				"qu",
+				"questions_json"
+			],
+			[
+				"s",
+				"symbols"
+			],
+			[
+				"json",
+				"json_dumps"
+			],
+			[
+				"ques",
+				"questions_json"
+			],
+			[
+				"la",
+				"last_user_geo_send_time"
+			],
+			[
+				"sele",
+				"locations_to_select"
+			],
+			[
+				"locatio",
+				"location_id"
+			],
+			[
+				"ga",
+				"game_verification"
+			],
+			[
+				"lat",
+				"latitude"
+			],
+			[
+				"g",
+				"get_group_data"
+			],
+			[
+				"gr",
+				"group_code"
+			],
+			[
+				"con",
+				"conditions"
+			],
+			[
+				"co",
+				"cond"
+			],
+			[
+				"asy",
+				"asyncio"
+			],
+			[
+				"add",
+				"add_dict_path"
+			],
+			[
+				"ma",
+				"main"
+			],
+			[
+				"ach",
+				"achievments"
+			],
+			[
+				"err",
+				"error_return"
+			],
+			[
+				"cl",
+				"club_verification"
+			],
+			[
+				"get_",
+				"get_club_data"
+			],
+			[
+				"up",
+				"updates"
+			],
+			[
+				"u",
+				"user_columns"
+			],
+			[
+				"para",
+				"params_one_of"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"П",
+				"ПЯТНИЦА"
+			],
+			[
+				"Ч",
+				"ЧЕТВЕРГ"
+			],
+			[
+				"В",
+				"ВТОРНИК"
+			],
+			[
+				"mes",
+				"message_id"
+			],
+			[
+				"pa",
+				"params_verification_one_of"
+			],
+			[
+				"js",
+				"json_dumps"
+			],
+			[
+				"U",
+				"User"
+			],
+			[
+				"cod",
+				"cond_sign"
+			],
+			[
+				"ch",
+				"chat_name"
+			],
+			[
+				"admi",
+				"admin_id"
+			],
+			[
+				"r",
+				"request"
+			],
+			[
+				"sc",
+				"statistic"
+			],
+			[
+				"Co",
+				"code_generate"
+			],
+			[
+				"ac",
+				"achievement_id"
+			],
+			[
+				"tok",
+				"token_levels"
+			],
+			[
+				"toke",
+				"token_verification"
+			],
+			[
+				"ret",
+				"return_count"
+			],
+			[
+				"di",
+				"params_dict"
+			],
+			[
+				"TO",
+				"TOGETHER_API_TOKEN"
+			],
+			[
+				"dat",
+				"datetime"
+			],
+			[
+				"N",
+				"Not"
+			],
+			[
+				"ve",
+				"ver_token"
+			],
+			[
+				"colu",
+				"columns_to_change"
+			],
+			[
+				"user",
+				"user_columns"
+			],
+			[
+				"v",
+				"type_verification"
+			],
+			[
+				"tokne",
+				"token_level"
+			],
+			[
+				"Para",
+				"Parameter"
+			],
+			[
+				"col",
+				"columns_GET"
+			],
+			[
+				"retu",
+				"return_count"
+			],
+			[
+				"dele",
+				"delete"
+			],
+			[
+				"params",
+				"params_list"
+			],
+			[
+				"parame",
+				"parameter"
+			],
+			[
+				"uers",
+				"user_columns"
+			],
+			[
+				"url",
+				"urlpatterns"
+			],
+			[
+				"htt",
+				"HttpResponse"
+			],
+			[
+				"h",
+				"HttpResponse"
+			],
+			[
+				"Htt",
+				"HttpResponse"
+			],
+			[
+				"_",
+				"_counter"
+			],
+			[
+				"Or",
+				"OrderStatusHandler"
+			],
+			[
+				"use",
+				"users_locker"
+			],
+			[
+				"par",
+				"parse_mode"
+			],
+			[
+				"repl",
+				"reply_markup"
+			],
+			[
+				"as",
+				"asyncio"
+			],
+			[
+				"add_",
+				"add_comment"
+			],
+			[
+				"ed",
+				"edit_confirm"
+			],
+			[
+				"add_co",
+				"add_confirm"
+			],
+			[
+				"to_",
+				"to_confirm"
+			],
+			[
+				"ИЗ",
+				"ИЗБРАННЫЕ"
+			],
+			[
+				"MEssa",
+				"MessageHandler"
+			],
+			[
+				"Mess",
+				"MessageHandler"
+			],
+			[
+				"ba",
+				"back_to_menu"
+			],
+			[
+				"Me",
+				"MessageHandler"
+			],
+			[
+				"e",
+				"!env"
+			],
+			[
+				"d",
+				"defs"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/79120/Documents/donated_problems/17.12.2022/a",
+			"settings":
+			{
+				"buffer_size": 1,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "a"
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"insert",
+					{
+						"characters": "a"
+					},
+					"AQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/cpp.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Dart/Support/Dart.sublime-build",
+					""
+				],
+				[
+					"Packages/Dart/Support/Dart.sublime-build",
+					"Dart: pub build"
+				],
+				[
+					"Packages/Dart/Support/Dart.sublime-build",
+					"Dart: dart2js"
+				]
+			],
+			[
+				"Packages/Dart/Support/Dart.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/DoxyDoxygen/Doxy.sublime-build",
+					""
+				],
+				[
+					"Packages/User/cpp.sublime-build",
+					""
+				],
+				[
+					"Packages/User/docker_compose_up_build.sublime-build",
+					""
+				],
+				[
+					"Packages/User/doxygen.sublime-build",
+					""
+				],
+				[
+					"Packages/User/HTML.sublime-build",
+					""
+				],
+				[
+					"Packages/User/pascal.sublime-build",
+					""
+				],
+				[
+					"Packages/User/sfml.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/doxygen.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Object Pascal/Object Pascal.sublime-build",
+					""
+				],
+				[
+					"Packages/Object Pascal/Object Pascal.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Object Pascal/Object Pascal.sublime-build",
+					"Build and Run"
+				]
+			],
+			[
+				"Packages/Object Pascal/Object Pascal.sublime-build",
+				"Build and Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/cmd.sublime-build",
+					""
+				],
+				[
+					"Packages/User/cpp.sublime-build",
+					""
+				],
+				[
+					"Packages/User/docker_compose_up_build.sublime-build",
+					""
+				],
+				[
+					"Packages/User/doxygen.sublime-build",
+					""
+				],
+				[
+					"Packages/User/HTML.sublime-build",
+					""
+				],
+				[
+					"Packages/User/pascal.sublime-build",
+					""
+				],
+				[
+					"Packages/User/PascalABC.sublime-build",
+					""
+				],
+				[
+					"Packages/User/sfml.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/cpp.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/cpp.sublime-build",
+					""
+				],
+				[
+					"Packages/User/docker_compose_up_build.sublime-build",
+					""
+				],
+				[
+					"Packages/User/HTML.sublime-build",
+					""
+				],
+				[
+					"Packages/User/pascal.sublime-build",
+					""
+				],
+				[
+					"Packages/User/sfml.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/cpp.sublime-build",
+					""
+				],
+				[
+					"Packages/User/docker_compose_up_build.sublime-build",
+					""
+				],
+				[
+					"Packages/User/doxygen.sublime-build",
+					""
+				],
+				[
+					"Packages/User/HTML.sublime-build",
+					""
+				],
+				[
+					"Packages/User/pascal.sublime-build",
+					""
+				],
+				[
+					"Packages/User/sfml.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/cmd.sublime-build",
+					""
+				],
+				[
+					"Packages/User/cpp.sublime-build",
+					""
+				],
+				[
+					"Packages/User/docker_compose_up_build.sublime-build",
+					""
+				],
+				[
+					"Packages/User/doxygen.sublime-build",
+					""
+				],
+				[
+					"Packages/User/HTML.sublime-build",
+					""
+				],
+				[
+					"Packages/User/pascal.sublime-build",
+					""
+				],
+				[
+					"Packages/User/PascalABC.sublime-build",
+					""
+				],
+				[
+					"Packages/User/sfml.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/docker_compose_up_build.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/cpp.sublime-build",
+					""
+				],
+				[
+					"Packages/User/docker_compose_up_build.sublime-build",
+					""
+				],
+				[
+					"Packages/User/HTML.sublime-build",
+					""
+				],
+				[
+					"Packages/User/pascal.sublime-build",
+					""
+				],
+				[
+					"Packages/User/sfml.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/HTML.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/cpp.sublime-build",
+					""
+				],
+				[
+					"Packages/User/docker_compose_up_build.sublime-build",
+					""
+				],
+				[
+					"Packages/User/doxygen.sublime-build",
+					""
+				],
+				[
+					"Packages/User/HTML.sublime-build",
+					""
+				],
+				[
+					"Packages/User/pascal.sublime-build",
+					""
+				],
+				[
+					"Packages/User/sfml.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/docker_compose_up_build.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"git log",
+				"Git: Log All"
+			],
+			[
+				"git rese",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"git ",
+				"Git: Open..."
+			],
+			[
+				"git push",
+				"Git: Push Current Branch"
+			],
+			[
+				"git am",
+				"Git: Amend Commit"
+			],
+			[
+				"git lo",
+				"Git: Log All"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add All"
+			],
+			[
+				"git cha",
+				"Git: Change Branch"
+			],
+			[
+				"gti me",
+				"Git: Merge Branch"
+			],
+			[
+				"git pull",
+				"Git: Pull Current Branch"
+			],
+			[
+				"git re",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"git me",
+				"Git: Merge Branch"
+			],
+			[
+				"git ch",
+				"Git: Change Branch"
+			],
+			[
+				"git merge",
+				"Git: Merge Branch"
+			],
+			[
+				"git che",
+				"Git: Change Branch"
+			],
+			[
+				"git fetch",
+				"Git: Fetch"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git reset",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"git cah",
+				"Git: Change Branch"
+			],
+			[
+				"git res",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"git new",
+				"Git: New Branch"
+			],
+			[
+				"git mer",
+				"Git: Merge Branch"
+			],
+			[
+				"git bra",
+				"Git: Merge Branch"
+			],
+			[
+				"git dele",
+				"Git: Delete Branch"
+			],
+			[
+				"cha",
+				"Git: Change Branch"
+			],
+			[
+				"Django:r",
+				"Django: Run Server"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"the",
+				"UI: Select Theme"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"scheme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"new ",
+				"File: New View into File"
+			],
+			[
+				"gti cha",
+				"Git: Change Branch"
+			],
+			[
+				"git pul",
+				"Git: Pull Current Branch"
+			],
+			[
+				"git  co",
+				"Git: Commit"
+			],
+			[
+				"git add ",
+				"Git: Add All"
+			],
+			[
+				"gir reset",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"git chan",
+				"Git: Change Branch"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"git check",
+				"Git: Checkout Tag"
+			],
+			[
+				"git change ",
+				"Git: Change Branch"
+			],
+			[
+				"git bran",
+				"Git: Change Branch"
+			],
+			[
+				"git delete",
+				"Git: Delete Branch"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git fe",
+				"Git: Fetch"
+			],
+			[
+				"git fet",
+				"Git: Fetch"
+			],
+			[
+				"git new bra",
+				"Git: New Branch"
+			],
+			[
+				"new bra",
+				"Git: New Branch"
+			],
+			[
+				"git br",
+				"Git: Change Branch"
+			],
+			[
+				"reset",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"git mergr",
+				"Git: Merge Branch"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"git charn",
+				"Git: Change Branch"
+			],
+			[
+				"git reser",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"branch",
+				"Git: Change Branch"
+			],
+			[
+				"got ci",
+				"Git: Diff Tool Current File"
+			],
+			[
+				"change ",
+				"Git: Change Branch"
+			],
+			[
+				"git chanhe",
+				"Git: Change Branch"
+			],
+			[
+				"bran",
+				"Git: Change Branch"
+			],
+			[
+				"git puah",
+				"Git: Push Current Branch"
+			],
+			[
+				"git open",
+				"Git: Open..."
+			],
+			[
+				"open file",
+				"Git: Open Modified Files"
+			],
+			[
+				"fold",
+				"DoxyDoxygen: Fold All Comments"
+			],
+			[
+				"unfo",
+				"DoxyDoxygen: Unfold All Comments"
+			],
+			[
+				"doxy",
+				"DoxyDoxygen: Comment All"
+			],
+			[
+				"all",
+				"DoxyDoxygen: Comment All"
+			],
+			[
+				"all doxy",
+				"DoxyDoxygen: Comment All"
+			],
+			[
+				"doxydo",
+				"DoxyDoxygen: Unfold All Comments"
+			],
+			[
+				"tutor",
+				"DoxyDoxygen: Tutorial"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"git aadd",
+				"Git: Quick Commit (repo, only already added files)"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add All"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL (PostgreSQL)"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Snippet: DOCTYPE HTML"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"git ad",
+				"Set Syntax: Git Code Owners"
+			],
+			[
+				"git a",
+				"Git: Add All"
+			],
+			[
+				"log",
+				"Git: Log All"
+			],
+			[
+				"git c",
+				"Git: Commit"
+			],
+			[
+				"git push ",
+				"Git: Push Current Branch"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"dart",
+				"Dart: Run"
+			],
+			[
+				"git p",
+				"Git: Push"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"set syntax: python",
+				"Set Syntax: Python"
+			],
+			[
+				"set syntax: c++",
+				"Set Syntax: C++"
+			],
+			[
+				"bu",
+				"Build: Cancel"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"Package Control: install ",
+				"Package Control: Install Package"
+			],
+			[
+				"git add .",
+				"Git: Add..."
+			],
+			[
+				"git puhs",
+				"Git: Push"
+			],
+			[
+				"add ",
+				"Git: Add All"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pace",
+				"Package Control: Remove Package"
+			],
+			[
+				"package control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"git log ",
+				"Git: Log Current File"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"git i",
+				"Git: Init"
+			],
+			[
+				"git",
+				"Git: Add All"
+			],
+			[
+				"gitADD",
+				"Git: Add All"
+			],
+			[
+				"Git ad",
+				"Git: Add All"
+			],
+			[
+				"git all",
+				"Git: Add All"
+			],
+			[
+				"git oush",
+				"Git: No Assume Unchanged"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 457.0,
+		"history":
+		[
+			"\"123\" \"123\"",
+			"\"123\" str(12) \"123\"",
+			"\"123\" 12 \"123\"",
+			"f\"123\" f\"123\"",
+			"\"123\" \"234\" ",
+			"\"123\" in None",
+			"a.remove",
+			"a = [1, 2, 3]",
+			"1e-100",
+			"100 % 0.3",
+			"0.3 % 100",
+			"a.remove",
+			"a.pop",
+			"a",
+			"a = {\"a\": 1}",
+			"tuple([1, 2, 3])",
+			"tuple()",
+			"{\"a\": 1 if 1}",
+			"str(uuid.uuid4())",
+			"import uuid",
+			"import django",
+			"str(uuid.uuid4())",
+			"import uuid",
+			"__package__",
+			"dir()",
+			"__class__",
+			"os",
+			"__spec__",
+			"__doc__",
+			"dir.__call__(dir)",
+			"dir.__call__()",
+			"dir.__call__",
+			"dir.__call__\\",
+			"dir(dir)",
+			"import django",
+			"import game",
+			"import a",
+			"import r",
+			"import requests",
+			"requests",
+			"a == {}",
+			"a = {}",
+			"type(str())",
+			"str()",
+			"a = \"ajsbdaksbd\"",
+			"list(a)",
+			"a = {\"1\": \"2\", \"3\": \"4\"}",
+			"random.choice(a)",
+			"a = []",
+			"random.choice(a)",
+			"a = [1, 2, 3]",
+			"import random",
+			"a.set_content",
+			"a = ()",
+			"str(a)",
+			"a = b\"123\"",
+			"a[len(a) - 3:len(a) - 1]",
+			"a[len(a) - 3:2]",
+			"a[len(a) - 2:2]",
+			"a = \"1234\"",
+			"a.endswith(\"1\")",
+			"a.startswith(\"1\")",
+			"a.startswith",
+			"a.starts with",
+			"a = \"123\"",
+			"type(int())",
+			"random.choice([1, 4, 2, 3, 5])",
+			"random.choice(\"1234\")",
+			"import random",
+			"datetime()",
+			"datetime",
+			"datetime.max",
+			"datetime.now().max",
+			"datetime.now().max()",
+			"dir(datetime.now())",
+			"datetime.now()",
+			"(datetime.now() - datetime(1970, 1, 1)).total_seconds()",
+			"60 * 60 * 3",
+			"(datetime.now() - datetime(1970, 1, 1)).total_seconds()",
+			"datetime.now() - datetime(1970, 1, 1)",
+			"datetime.now() - datetime(1, 1, 1970)",
+			"datetime.now",
+			"from  datetime import datetime",
+			"a[1]",
+			"a = {\"1\": 2}",
+			"datetime(\"19.01.2022\")",
+			"(datetime.now() - datetime(day=19, month=10, year=2022, minute=54, hour=12, second=59)).total_seconds()",
+			"(datetime.now() - datetime(day=19, month=10, year=2022, minute=54, hour=12, second=100)).total_seconds()",
+			"(datetime.now() - datetime(day=19, month=10, year=2022, minute=54, hour=12, second=1)).total_seconds()",
+			"(datetime.now() - datetime(day=19, month=10, year=2022, minute=54, hour=12)).total_seconds()",
+			"(datetime.now() - datetime(day=19, month=10, year=2022, minute=12, hour=12)).total_seconds()",
+			"(datetime.now() - datetime(day=19, month=10, year=2022, minute=12, hours=12)).total_seconds()",
+			"(datetime.now() - datetime(day=19, month=10, year=2022, minute=12, hour=12)).total_seconds()",
+			"(datetime.now() - datetime(day=19, month=10, year=2022, minute=12, hours=12)).total_seconds()",
+			"(datetime.now() - datetime(day=19, month=10, year=2022, minutes=12, hours=12)).total_seconds()",
+			"(datetime.now() - datetime(day=19, month=10, year=2022)).total_seconds()",
+			"(datetime.now() - datetime(2022, 10, 19)).total_seconds()",
+			"(datetime.now() - datetime(2022, 1, 1)).total_seconds()",
+			"(datetime.now() - datetime(2022, 1, 1)).total_seconds",
+			"(datetime.now() - datetime(1, 1, 2022)).total_seconds",
+			"datetime.now().total_seconds",
+			"datetime.now()",
+			"int(datetime.now())",
+			"from  datetime import datetime",
+			"str(a)",
+			"a = None",
+			"ЭЭ",
+			"ЭЭ = 1",
+			"ЭЭ",
+			"a == True",
+			"a = \"True\"",
+			"a == True",
+			"a = \"123\"",
+			"[i for i in a]",
+			"for i in a:\n\tprint(a[i])",
+			"for i in a:\n\tprint(i)",
+			"a = {\"a\": \"b\", \"c\": \"d\"}",
+			"a",
+			"print(a.get(\"a\", 0))",
+			"print(a.get(\"c\", 0))",
+			"print(a.get(\"c\"))",
+			"a.get(\"c\")",
+			"a = {\"a\": \"b\"}",
+			"a.__doc__",
+			"a()",
+			"a",
+			"def a():\n\t\"1\"\n\treturn 1",
+			"a.__doc__"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/79120/Documents/donated_problems",
+		"/C/Users/79120/Documents/donated_problems/17.12.2022"
+	],
+	"file_history":
+	[
+		"/C/Users/79120/Documents/Python/togetherapi/python_librarys/AsyncDB.py",
+		"/C/Users/79120/Documents/Python/togetherapi/python_librarys/config.py",
+		"/C/Users/79120/Documents/Python/togetherapi/python_librarys/DB.py",
+		"/C/Users/79120/Documents/Python/togetherapi/tasks/main.py",
+		"/C/Users/79120/Documents/Python/togetherapi/environment",
+		"/C/Users/79120/Documents/Python/togetherapi/.gitignore",
+		"/C/Users/79120/Documents/Python/togetherapi/api/step_in_culture/views.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/test.py",
+		"/C/Users/79120/Documents/Python/togetherapi/tasks/game_closers/step_in_culture.py",
+		"/C/Users/79120/Documents/Python/togetherapi/docker-compose.yml",
+		"/C/Users/79120/Documents/Python/togetherapi/database.sql",
+		"/C/Users/79120/Documents/Python/togetherapi/.git/COMMIT_EDITMSG",
+		"/C/Users/79120/Documents/Python/togetherapi/tasks/requirements.txt",
+		"/C/Users/79120/Documents/Python/togetherapi/kk.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/chat/views.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/group/views.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/test_modules.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/golden_adventure/views.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/temp/users/25/photo.jpg",
+		"/C/Users/79120/Documents/Python/togetherapi/api/user/views.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/lib/data_functions.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/club/views.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/location/views.py",
+		"/C/Users/79120/AppData/Roaming/Sublime Text 3/Packages/User/sfml.sublime-build",
+		"/C/Users/79120/AppData/Roaming/Sublime Text 3/Packages/User/HTML.sublime-build",
+		"/C/Users/79120/Documents/Python/togetherapi/api/tokens/functions.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/documentation.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/requirements.txt",
+		"/C/Users/79120/Documents/Python/togetherapi/TODO",
+		"/C/Users/79120/Documents/Python/togetherapi/api/group/urls.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/club/urls.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/documentation.html",
+		"/C/Users/79120/Documents/Python/schedule86/main.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/chat/urls.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/golden_adventure/urls.py",
+		"/C/Users/79120/Documents/Python/togetherapi/games_closer/main.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/api/urls.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/manage.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/api/asgi.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/api/settings.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/api/wsgi.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/user/urls.py",
+		"/C/Users/79120/Documents/Python/togetherapi/games/main.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/step_in_culture/urls.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/tokens/views.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/togetherapi/views.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/lib/log.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/lib/config.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/game/views.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/chat/message/views.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/lib/DB.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/user/photo/views.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/user/photo/urls.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/user/inventory/views.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/user/inventory/urls.py",
+		"/C/Users/79120/Documents/Python/togetherapi/achievments/main.py",
+		"/C/Users/79120/Documents/Python/togetherapi/achievments/lib/DB.py",
+		"/C/Users/79120/Documents/Python/togetherapi/documentation.html",
+		"/C/Users/79120/Documents/Python/togetherapi/documentation.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/togetherapi/urls.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/location/urls.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/tokens/urls.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/togetherapi/settings.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/token/views.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/token/urls.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/locations/views.py",
+		"/C/Users/79120/AppData/Roaming/Sublime Text 3/Packages/User/cpp.sublime-build",
+		"/C/Users/79120/AppData/Roaming/Sublime Text 3/Packages/User/doxygen.sublime-build",
+		"/C/Users/79120/Documents/Python/togetherapi/Doxyfile",
+		"/C/Users/79120/Documents/Python/togetherapi/api/log_test.txt",
+		"/C/Users/79120/Desktop/Everlasting Summer/renpy/arguments.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/log.txt",
+		"/C/Users/79120/Desktop/ground.py",
+		"/C/Users/79120/Desktop/Сервер minecraft/Сервер minecraft/server.properties",
+		"/C/Users/79120/Desktop/test.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/tests/tokens.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/chat/tests.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/chat/message/tests.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/game/tests.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/group/tests.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/locations/tests.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/step_in_culture/tests.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/togetherapi/tests.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/tokens/tests.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/user/tests.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/Dockerfile",
+		"/C/Users/79120/Documents/Python/togetherapi/api/tests/test_chats.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/chat/tests/test_messages.py",
+		"/C/Users/79120/AppData/Roaming/Sublime Text 3/Packages/User/docker_compose_up_build.sublime-build",
+		"/C/Users/79120/AppData/Roaming/Sublime Text 3/Packages/User/docker_compose_up_build",
+		"/C/Users/79120/Documents/Python/togetherapi/api/testss.py",
+		"/C/Users/79120/Documents/Python/schedule86/config.py",
+		"/C/Users/79120/Desktop/bot.py",
+		"/C/Users/79120/Documents/Python/togetherapi/hooks/commit-msg.sample",
+		"/C/Users/79120/Documents/Python/togetherapi/leaderboards/main.py",
+		"/C/Users/79120/Documents/Python/togetherapi/games/requirements.txt",
+		"/C/Users/79120/Documents/Python/togetherapi/leaderboards/requirements.txt",
+		"/C/Users/79120/Documents/Python/togetherapi/achievments/requirements.txt",
+		"/C/Users/79120/Documents/Python/schedule86-gmail/gmail.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/locations/urls.py",
+		"/C/Users/79120/Desktop/mail.txt",
+		"/C/Users/79120/index.php",
+		"/C/Users/79120/Documents/Python/togetherapi/games/lib/add_dict_path.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/game/urls.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/Procfile",
+		"/C/Users/79120/Documents/Python/togetherapi/requirements.txt",
+		"/C/Users/79120/Documents/Python/togetherapi/api/game/step_in_culture/views.py",
+		"/C/Users/79120/Documents/Python/togetherapi/api/game/step_in_culture/urls.py",
+		"/C/Users/79120/Desktop/desk.vbs",
+		"/C/Users/79120/Desktop/desktop.bat",
+		"/C/Users/79120/Desktop/desktop.ps1",
+		"/C/Users/79120/Documents/Python/togetherapi/achievments/lib/add_dict_path.py",
+		"/C/Users/79120/Documents/Python/togetherapi/leaderboards/lib/config.py",
+		"/C/Users/79120/Documents/Python/togetherapi/leaderboards/Dockerfile",
+		"/C/Users/79120/Documents/Python/togetherapi/Dockerfile",
+		"/C/Users/79120/Documents/Python/togetherapi/code/Dockerfile",
+		"/C/Users/79120/Documents/Python/togetherapi/code/test.py",
+		"/C/Users/79120/Documents/Python/togetherapi/web/Dockerfile",
+		"/C/Users/79120/Documents/Python/togetherapi/leaderboards/lib/Dockerfile.Dockerfile",
+		"/C/Users/79120/Documents/Python/togetherapi/code/lib/config.py",
+		"/C/Users/79120/Documents/Python/togetherapi/code/tokens/urls.py",
+		"/C/Users/79120/Documents/Python/togetherapi/code/tokens/functions.py",
+		"/C/Users/79120/Documents/Python/togetherapi/code/tokens/views.py",
+		"/C/Users/79120/Documents/Python/togetherapi/code/group/views.py",
+		"/C/Users/79120/Documents/Python/togetherapi/code/game/views.py",
+		"/C/Users/79120/Documents/Python/togetherapi/code/game/urls.py",
+		"/C/Users/79120/Documents/Python/togetherapi/code/chat/views.py",
+		"/C/Users/79120/Documents/Python/togetherapi/code/club/views.py"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 648.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": false,
+		"use_buffer2": false,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/79120/Documents/donated_problems/17.12.2022/a",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"auto_name": "a",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 221.333333333
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.Cmder-2":
+	{
+		"height": 132.0
+	},
+	"output.autopep8":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 512.0
+	},
+	"output.find_results":
+	{
+		"height": 587.0
+	},
+	"output.git":
+	{
+		"height": 287.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 132.0
+	},
+	"pinned_build_system": "",
+	"project": "donated_plorlems.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 131.333333333,
+		"last_filter": "invi",
+		"selected_items":
+		[
+			[
+				"invi",
+				"invite"
+			],
+			[
+				"inv",
+				"invite"
+			],
+			[
+				"",
+				"invite"
+			]
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 270.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

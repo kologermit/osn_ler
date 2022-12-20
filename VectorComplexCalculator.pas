@@ -13,7 +13,7 @@ function minusVectorComplex(a, b: VectorComplex): VectorComplex;
 function multiplierVectorComplex(a, b: VectorComplex): VectorComplex;
 function scalarMultiplierVectorComplex(v: VectorComplex; s: real): VectorComplex;
 function ComplexMultiplierVectorComplex(v: VectorComplex; c: Complex): VectorComplex;
-// function moduleVectorComplex(a: VectorComplex): Complex;
+function scalarMultiplierVectorComplex(a, b: VectorComplex): Complex;
 
 implementation
  
@@ -62,5 +62,11 @@ begin
 	ComplexMultiplierVectorComplex.x := multiplierComplex(v.x, c);
 	ComplexMultiplierVectorComplex.y := multiplierComplex(v.x, c);
 	ComplexMultiplierVectorComplex.z := multiplierComplex(v.x, c);
+end;
+
+function scalarMultiplierVectorComplex(a, b: VectorComplex): Complex;
+begin
+	scalarMultiplierVectorComplex := sumComplex(sumComplex(multiplierComplex(a.x, b.x), multiplierComplex(a.y, b.y)), 
+		multiplierComplex(a.z, b.z));
 end;
 end.

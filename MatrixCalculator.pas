@@ -9,7 +9,7 @@ function MatrixConstructor(a: Matrix): Matrix;
 function sumMatrix(a, b: Matrix): Matrix;
 function minusMatrix(a, b: Matrix): Matrix;
 function multiplierMatrix(a, b: Matrix): Matrix;
-// function scalarMultiplierMatrix(s: real; v: Matrix): Matrix;
+function scalarMultiplierMatrix(m: Matrix; s: real): Matrix;
 // function scalarMultiplierMatrix(a, b: Matrix): real;
 // function moduleMatrix(a: Matrix): real;
 
@@ -70,18 +70,19 @@ begin
  			for k := 1 to 3 do
 			begin
 				multiplierMatrix[i][j] := multiplierMatrix[i][j] + a[i][k] * b[k][j];
-				writeln('c[', i, '][', j, ']+=a[', i, '][', k, '] * b[', k, '][', j, ']');
-				writeln(multiplierMatrix[i][j]:1:0, '=', a[i][k]:1:0, '*', b[k][j]:1:0);
+				// writeln('c[', i, '][', j, ']+=a[', i, '][', k, '] * b[', k, '][', j, ']');
+				// writeln(multiplierMatrix[i][j]:1:0, '=', a[i][k]:1:0, '*', b[k][j]:1:0);
 			end;
 		end;
 end;
 
-// function scalarMultiplierMatrix(s: real; v: Matrix): Matrix;
-// begin
-// 	scalarMultiplierMatrix.x := s * v.x;
-// 	scalarMultiplierMatrix.y := s * v.y;
-// 	scalarMultiplierMatrix.z := s * v.z;
-// end;
+function scalarMultiplierMatrix(m: Matrix; s: real): Matrix;
+var i, j: integer;
+begin
+	for i := 1 to 3 do
+		for j := 1 to 3 do
+			scalarMultiplierMatrix[i][j] := m[i][j] * s;
+end;
 
 // function scalarMultiplierMatrix(a, b: Matrix): real;
 // begin

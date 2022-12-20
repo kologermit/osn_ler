@@ -1,3 +1,4 @@
+uses crt;
 var a: array[1 .. 100] of real;
 var t: real;
 var n, i, j: integer;
