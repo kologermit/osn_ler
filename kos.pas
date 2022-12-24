@@ -1,6 +1,6 @@
-var i: integer;
-var p: real;
+uses ComplexCalculator;
+var a, s: Complex;
 begin
-    p := 1;
-    
+    a := inputComplex();
+    outputComplex('res=', cosComplex(a));
 end.

@@ -11,10 +11,22 @@ function MatrixComplexConstructor(a: MatrixComplex): MatrixComplex;
 function sumMatrixComplex(a, b: MatrixComplex): MatrixComplex;
 function minusMatrixComplex(a, b: MatrixComplex): MatrixComplex;
 function multiplierMatrixComplex(a, b: MatrixComplex): MatrixComplex;
+function multiplierMatrixComplex(a: MatrixComplex; c: Complex): MatrixComplex;
+function expMatrixComplex(a: MatrixComplex): MatrixComplex;
 function ComplexMultiplierMatrixComplex(m: MatrixComplex; s: Complex): MatrixComplex;
 function powMatrixComplex(a: MatrixComplex; p: integer): MatrixComplex;
+function inputMatrixComplex(): MatrixComplex;
+procedure outputMatrixComplex(beg: string; m: MatrixComplex);
 
 implementation
+
+function fact(n: integer): integer;
+var i: integer;
+begin
+    fact := 1;
+    for i := 1 to n do
+        fact := fact * i;
+end;
 
 function MatrixComplexConstructor(a1, a2, a3, a4, a5, a6, a7, a8, a9: Complex): MatrixComplex;
 begin
@@ -77,6 +89,24 @@ begin
 		end;
 end;
 
+function multiplierMatrixComplex(a: MatrixComplex; c: Complex): MatrixComplex;
+var i, j: integer;
+begin
+	for i := 1 to 3 do
+		for j := 1 to 3 do
+			multiplierMatrixComplex[i][j] := multiplierComplex(a[i][j], c);
+end;
+
+function expMatrixComplex(a: MatrixComplex): MatrixComplex;
+var k: integer;
+begin
+	expMatrixComplex := MatrixComplexConstructor(ComplexConstructor(0, 0), ComplexConstructor(0, 0), ComplexConstructor(0, 0), 
+		ComplexConstructor(0, 0), ComplexConstructor(0, 0), ComplexConstructor(0, 0), 
+		ComplexConstructor(0, 0), ComplexConstructor(0, 0), ComplexConstructor(0, 0));
+	for k := 0 to 10 do
+		expMatrixComplex := sumMatrixComplex(expMatrixComplex, multiplierMatrixComplex(powMatrixComplex(a, k), ComplexConstructor(1 / fact(k), 0)));
+end;
+
 function ComplexMultiplierMatrixComplex(m: MatrixComplex; s: Complex): MatrixComplex;
 var i, j: integer;
 begin
@@ -91,6 +121,30 @@ begin
 	powMatrixComplex := a;
 	for i := 2 to p do
 		powMatrixComplex := multiplierMatrixComplex(powMatrixComplex, a);
+end;
+
+
+function inputMatrixComplex(): MatrixComplex;
+var i, j: integer;
+begin
+	for i := 1 to 3 do
+		for j := 1 to 3 do
+		begin
+			write('(', i, ', ', j, ')=');
+			inputMatrixComplex[i][j] := inputComplex();
+		end;
+	writeln();
+end;
+
+procedure outputMatrixComplex(beg: string; m: MatrixComplex);
+var i: integer;
+begin
+	write(beg);
+	for i := 1 to 3 do
+	begin
+		writeln('| ', m[i][1].r:1:4, '+', m[i][1].c:1:4, 'i ; ', 
+			m[i][2].r:1:4, '+', m[i][2].c:1:4, 'i ; ', m[i][3].r:1:4, '+', m[i][3].c:1:4, 'i |');
+	end;
 end;
 
 end.

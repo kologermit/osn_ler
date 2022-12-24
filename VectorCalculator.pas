@@ -13,6 +13,8 @@ function multiplierVector(a, b: Vector): Vector;
 function scalarMultiplierVector(v: Vector; s: real): Vector;
 function scalarMultiplierVector(a, b: Vector): real;
 function moduleVector(a: Vector): real;
+function inputVector(): Vector;
+procedure outputVector(beg: string; v: Vector);
 
 implementation
 
@@ -64,6 +66,21 @@ end;
 function moduleVector(a: Vector): real;
 begin
 	moduleVector := sqrt(a.x*a.x + a.y*a.y + a.z*a.z);
+end;
+
+function inputVector(): Vector;
+begin
+	write('x=');
+	read(inputVector.x);
+	write('y=');
+	read(inputVector.y);
+	write('z=');
+	read(inputVector.z);
+end;
+
+procedure outputVector(beg: string; v: Vector);
+begin
+	writeln(beg, '(', v.x:1:4, ', ', v.y:1:4, ', ', v.z:1:4, ')');
 end;
 
 end.

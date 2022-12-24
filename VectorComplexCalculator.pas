@@ -14,6 +14,8 @@ function multiplierVectorComplex(a, b: VectorComplex): VectorComplex;
 function scalarMultiplierVectorComplex(v: VectorComplex; s: real): VectorComplex;
 function ComplexMultiplierVectorComplex(v: VectorComplex; c: Complex): VectorComplex;
 function scalarMultiplierVectorComplex(a, b: VectorComplex): Complex;
+function inputVectorComplex(): VectorComplex;
+procedure outputVectorComplex(beg: string; v: VectorComplex);
 
 implementation
  
@@ -69,4 +71,26 @@ begin
 	scalarMultiplierVectorComplex := sumComplex(sumComplex(multiplierComplex(a.x, b.x), multiplierComplex(a.y, b.y)), 
 		multiplierComplex(a.z, b.z));
 end;
+
+function inputVectorComplex(): VectorComplex;
+begin
+	write('x=');
+	inputVectorComplex.x := inputComplex();
+	write('y=');
+	inputVectorComplex.y := inputComplex();
+	write('z=');
+	inputVectorComplex.z := inputComplex();
+end;
+
+procedure outputVectorComplex(beg: string; v: VectorComplex);
+begin
+	write(beg, 'x=');
+	outputComplex('', v.x);
+	write('y=');
+	outputComplex('', v.y);
+	write('z=');
+	outputComplex('', v.z);
+end;
+
+
 end.

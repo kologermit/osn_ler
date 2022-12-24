@@ -17,8 +17,28 @@ function divisionComplex(first, second: Complex): Complex;
 function oneDivisionComplex(a: Complex): Complex;
 function moduleComplex(a: Complex): real;
 function powComplex(a: Complex; b: integer): Complex;
+function sinComplex(x: Complex): Complex;
+function cosComplex(x: Complex): Complex;
+function inputComplex(): Complex;
+procedure outputComplex(beg: string; a: Complex);
 
 implementation
+
+function fact(n: integer): integer;
+var i: integer;
+begin
+    fact := 1;
+    for i := 1 to n do
+        fact := fact * i;
+end;
+
+function pow(a: real; p: integer): real;
+var i: integer;
+begin
+    pow := 1;
+    for i := 1 to p do
+        pow := pow * a;
+end;
 
 function ComplexConstructor(r, c: real): Complex;
 begin
@@ -92,4 +112,49 @@ begin
     for i := 2 to b do
         powComplex := multiplierComplex(powComplex, a);
 end;
+
+function sinComplex(x: Complex): Complex;
+var i: integer; t: Complex;
+begin
+    sinComplex := ComplexConstructor(0, 0);
+    i := 0;
+    t := ComplexConstructor(1, 1);
+    while i <= 7 do
+    begin
+        t := multiplierComplex(powComplex(x, 2*i + 1), pow(-1, i));
+        t := divisionComplex(t, ComplexConstructor(fact(2*i + 1), 0));
+        // outputComplex('t=', t);
+        sinComplex := sumComplex(t, sinComplex);
+        i := i + 1;
+    end;
+end;
+
+function cosComplex(x: Complex): Complex;
+var i: integer; t: Complex;
+begin
+    cosComplex := ComplexConstructor(0, 0);
+    i := 0;
+    t := ComplexConstructor(1, 1);
+    while i <= 7 do
+    begin
+        t := multiplierComplex(powComplex(x, 2*i), pow(-1, i));
+        t := divisionComplex(t, ComplexConstructor(fact(2*i), 0));
+        cosComplex := sumComplex(cosComplex, t);
+        i := i + 1;
+    end;
+end;
+
+function inputComplex(): Complex;
+begin
+    write('r=');
+    read(inputComplex.r);
+    write('c=');
+    read(inputComplex.c);
+end;
+
+procedure outputComplex(beg: string; a: Complex);
+begin
+    writeln(beg, a.r:1:4, '+', a.c:1:4, 'i');
+end;
+
 end.
